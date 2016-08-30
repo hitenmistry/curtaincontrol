@@ -1,5 +1,5 @@
 # Adjust Crontab for curtain control:
-0 3 * * * /home/hiten/scripts/curtaincontrol/get_sunrise_set > /dev/null 2>&1
+0 3 * * * /home/hiten/scripts/curtaincontrol/get_sunrise_set.sh > /dev/null 2>&1
 # Curtain Control
 00 04 * * * /home/hiten/scripts/curtaincontrol/curtain_lounge_open.py > /dev/null
 00 09 * * 1,2,3,4,5 /home/hiten/scripts/curtaincontrol/curtain_bedroom_open.py > /dev/null
